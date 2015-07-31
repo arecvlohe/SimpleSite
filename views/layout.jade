@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title #{title} - Static Site
+    link(rel='stylesheet', href='stylesheets/main.css')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+  body
+    header
+      h1 Static Site
+    .container
+      .main-content
+        block content
+      .side-bar
+        block side-bar
+      footer
+        p Up and Running with Node, Express, Jade, and Stylus
+  
